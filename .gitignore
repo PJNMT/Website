@@ -1,0 +1,20 @@
+.idea/
+__pycache__/
+/config.py
+
+
+.project
+.pydevproject
+.settings/
+
+.wsgi
+
+# Binaries
+bin
+obj
+
+# Rider
+.idea
+*.userprefs
+
+Game.sln.DotSettings.user
