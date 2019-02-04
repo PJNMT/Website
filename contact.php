@@ -21,7 +21,7 @@
                     <div id="cont">
 
                         <div id="img"><img src="images/logo.png" alt="Bateau pirate"  width="50" height="50"></a></div>
-                        <p id="lien"><a href="accueil.php">BlindPirate</a> <span>by PJNMT</span></p>
+                        <p id="lien"><a href="accueil.php">BlindFlag</a> <span>by PJNMT</span></p>
                     </div>              
                     <nav id="nav">
 

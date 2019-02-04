@@ -64,7 +64,7 @@
  			<article>
  				<header id="section">
  					<h2 id="main">La meilleure réalité est <br> celle que nous permet notre imagination!</h2>
- 					<p><strong>BlindPirate</strong> est un jeu entièrement accessible aux personnes déficientes visuelles. <br> Le gameplay ne nécessite que très peu le clavier. Commande vocale, design minimal.</p>
+ 					<p><strong>BlindFlag</strong> est un jeu entièrement accessible aux personnes déficientes visuelles. <br> Le gameplay ne nécessite que très peu le clavier. Commande vocale, design minimal.</p>
  				</header>
 
  				<!--Section One-->
