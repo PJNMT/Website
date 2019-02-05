@@ -177,7 +177,9 @@ header div .element a
 /*Section, Global Parameters*/
 #section
 {
+	width: 100%;
 	background-color: white;
+	text-align: center;
 	padding: 50px;
 	font-size: 200%;
 	color: #A9A9A9;
