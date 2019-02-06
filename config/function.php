@@ -9,7 +9,7 @@
 //fonction qui récupère tous les articles
 function getArticles()
 {
-    require ('config/connect.php');
+    require('config/connect.php');
     $req = $bdd->prepare('SELECT id, title FROM articles ORDER BY id DESC');
     $req->execute();
     $data = $req->fetchAll(PDO::FETCH_OBJ);
@@ -20,7 +20,7 @@ function getArticles()
 //fonction qui récupère un article
 function getArticle($id)
 {
-    require('config/connect.php');
+    include('config/connect.php');
     $req = $bdd->prepare('SELECT * FROM articles WHERE id = ?');
     $req->execute(array($id));
     if($req->rowCount()== 1):
