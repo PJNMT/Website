@@ -1,15 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Néphélie
+ * User: Nephelie
  * Date: 05/02/2019
  * Time: 15:50
  */
-
-//fonction qui récupère tous les articles
+include_once('connect.php');
+//fonction qui recupere tous les articles
 function getArticles()
 {
-    require ('config/connect.php');
     $req = $bdd->prepare('SELECT id, title FROM articles ORDER BY id DESC');
     $req->execute();
     $data = $req->fetchAll(PDO::FETCH_OBJ);
@@ -17,10 +16,9 @@ function getArticles()
     $req->closeCursor();
 }
 
-//fonction qui récupère un article
+//fonction qui recupere un article
 function getArticle($id)
 {
-    require('config/connect.php');
     $req = $bdd->prepare('SELECT * FROM articles WHERE id = ?');
     $req->execute(array($id));
     if($req->rowCount()== 1):
@@ -30,4 +28,7 @@ function getArticle($id)
         }
     else:
         header('Location: accueil.php');
+
 }
+
+?>
