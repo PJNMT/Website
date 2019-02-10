@@ -48,24 +48,24 @@
 
                 <div>
                     <div>
-                        <img src="images/Photo/nephelie.jpg" width="15%" height="15%">
-                        <p>Néphélie Lambrinidis</p>
-                    </div>
-                    <div>
-                        <img src="images/Photo/marius.jpg" width="15%" height="15%">
-                        <p>Marius Hurbin</p>
-                    </div>
-                    <div>
-                        <img src="images/Photo/jeanne.jpg" width="15%" height="15%">
+                        <img src="images/Photo/Jeanne.jpg" width="15%" height="15%">
                         <p>Jeanne Morin</p>
                     </div>
                     <div>
-                        <img src="images/Photo/tao.jpg" width="15%" height="15%">
-                        <p>Tao Blancheton</p>
+                        <img src="images/Photo/Néphélie.jpg" width="15%" height="15%">
+                        <p>Néphélie Lambrinidis</p>
                     </div>
                     <div>
-                        <img src="images/Photo/pilar.jpg" width="15%" height="15%">
+                        <img src="images/Photo/Marius.jpg" width="15%" height="15%">
+                        <p>Marius Hurbin</p>
+                    </div>
+                    <div>
+                        <img src="images/Photo/Pilar.jpg" width="15%" height="15%">
                         <p>Pilar Guttirez</p>
+                    </div>
+                    <div>
+                        <img src="images/Photo/Tao.jpg" width="15%" height="15%">
+                        <p>Tao Blancheton</p>
                     </div>
                 </div>
 
