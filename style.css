@@ -28,6 +28,7 @@ body
 	background: no-repeat;
 	background-attachment: fixed;
 	background-image: url(images/banner.jpg);
+	background-size: cover;
 }
 h2
 {
