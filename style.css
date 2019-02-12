@@ -19,7 +19,6 @@ html
 }
 body
 {
-	width: 100%;
 	margin: 0px;
 	background-color: black;
 	font-size: 16px;
@@ -29,6 +28,14 @@ body
 	background-attachment: fixed;
 	background-image: url(images/banner.jpg);
 	background-size: cover;
+}
+div
+{
+	text-align: center;
+}
+div img
+{
+	display: block;
 }
 h2
 {
@@ -201,4 +208,10 @@ article header
 	color: black;
 	padding: 10px;
 	margin: 50px;
+}
+
+/*Page contact */
+#contact
+{
+	display: flex;	
 }
