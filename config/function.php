@@ -28,6 +28,7 @@ function getArticle($id)
         }
     else:
         header('Location: accueil.php');
+    endif;
 
 }
 
