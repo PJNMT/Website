@@ -87,6 +87,19 @@ a
 	font-size: 20px;
 	align-self: center;
 }
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+figcaption
+{
+	align-content: center;
+}
+.imgconten
+{
+	overflow: hidden;
+}
 #menu
 {
 	justify-content: flex-end;
