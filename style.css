@@ -201,7 +201,7 @@ header div .element a
 	width: 100%;
 	background-color: white;
 	text-align: center;
-	padding: 50px;
+	padding: 50px 0px 50px 0px;
 	font-size: 200%;
 	color: #A9A9A9;
 }
