@@ -241,3 +241,16 @@ ul {
 li {
 	margin-bottom: 0px;/* à adapter */
 }
+#design
+{
+	margin: auto;
+}
+#social
+{
+	display: flex;
+	align-items: center;
+}
+#social img
+{
+	margin-left: 100px;
+}
