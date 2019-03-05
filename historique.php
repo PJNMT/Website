@@ -43,7 +43,7 @@
 
 
             </header>
-                        <article>
+            <article>
                 <!-- Place du fil d'actualités, le plus récent en haut-->
                 <!-- Titre + photo si il y a + date + premières lignes du texte avec un bouton lire la suite sur qui redirige vers articles.html -->
 
@@ -55,13 +55,12 @@
                     }
                     catch(Exception $e)
                     {
-                        echo 'nope';
                         die('Erreur : '.$e->getMessage());
                     }
 
-                    // On récupère les 5 derniers article
                     $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article');
 
+                    // Affichage des articles
                     while ($donnees = $req->fetch())
                     {
                 ?>

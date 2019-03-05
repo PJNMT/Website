@@ -259,14 +259,6 @@ li {
 
 /* TEST TAO BDD */
 
-.t3
-{
-	text-align:center;
-    background-color:black;
-    color:white;
-    font-size:0.9em;
-    margin-bottom:0px;
-}
 .news p
 {
     background-color:#CCCCCC;
@@ -278,8 +270,11 @@ li {
     margin:auto;
 }
 
-a
+.t3
 {
-    text-decoration: none;
-    color: blue;
+	text-align:center;
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
 }
