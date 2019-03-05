@@ -76,7 +76,7 @@
                                     echo nl2br(htmlspecialchars($donnees['text']));
                                 ?>
                                 <br />
-                                <img src=<?php $donnees['picture_path'] ?>>
+                                <img src=<?php echo $donnees['picture_path'] ?>>
                             </p>
                         </div>
                 <?php
