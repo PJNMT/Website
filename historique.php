@@ -60,23 +60,23 @@
                     }
 
                     // On récupère les 5 derniers article
-                    $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, title, article, picture_path FROM Article ORDER BY C_date DESC LIMIT 0, 5');
+                    $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article');
 
                     while ($donnees = $req->fetch())
                     {
                 ?>
                         <div class="news">
                             <p class="t3">
-                                <?php echo htmlspecialchars($donnees['title']); ?>
+                                <?php echo htmlspecialchars($donnees['Title']); ?>
                                 <em>le <?php echo $donnees['creation_date']; ?></em>
                             </p>
     
                             <p>
                                 <?php
-                                    echo nl2br(htmlspecialchars($donnees['text']));
+                                    echo nl2br(htmlspecialchars($donnees['Text_article']));
                                 ?>
                                 <br />
-                                <img src=<?php echo $donnees['picture_path'] ?>>
+                                <img src=<?php echo $donnees['Picture'] ?>>
                             </p>
                         </div>
                 <?php
