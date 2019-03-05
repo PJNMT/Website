@@ -55,7 +55,7 @@
 					}
 					catch(Exception $e)
 					{
-						echo htmlspecialchars('nope');
+						echo 'nope';
         				die('Erreur : '.$e->getMessage());
 					}
 
