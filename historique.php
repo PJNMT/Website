@@ -32,7 +32,7 @@
 
                             <div class="element"><a href="index.html">Bienvenue</a></div>
                             <div class="element"><a href="contact.html">L'équipe</a></div>
-                            <div class="element"><a href="historique.html">Historique</a></div>
+                            <div class="element"><a href="historique.php">Historique</a></div>
                             <div class="element"><a href="Test.zip">Télécharger le jeu</a></div>
 
                         </div>
@@ -55,6 +55,7 @@
 					}
 					catch(Exception $e)
 					{
+						echo htmlspecialchars('nope');
         				die('Erreur : '.$e->getMessage());
 					}
 
