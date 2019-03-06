@@ -9,37 +9,41 @@
     <body>
 
         <?php
-            // Connexion à la base de données
-            try
-            {
-                $bdd = new PDO('mysql:host=localhost;dbname=BlindFlag;charset=utf8', 'blindflag', 'tao');
-            }
-            catch(Exception $e)
-            {
-                die('Erreur : '.$e->getMessage());
-            }
+                    // Connexion à la base de données
+                    try
+                    {
+                        $bdd = new PDO('mysql:host=localhost;dbname=BlindFlag;charset=utf8', 'blindflag', 'tao');
+                    }
+                    catch(Exception $e)
+                    {
+                        die('Erreur : '.$e->getMessage());
+                    }
 
-            $req = $bdd->query("SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='".$_GET['ID']."'");
-            $donnees = $req->fetch();
-        ?>
+                    $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id=$_GET['ID']');
 
-                <div class="article">
-                    <p class="t3">
-                        <?php echo htmlspecialchars($donnees[0]['Title']); ?>
-                        <em>le <?php echo $donnees[0]['creation_date']; ?></em>
-                    </p>
+                    // Affichage des articles
+                    while ($donnees = $req->fetch())
+                    {
+                ?>
+                        <div class="article">
+                            <p class="t3">
+                                <?php echo htmlspecialchars($donnees['Title']); ?>
+                                <em>le <?php echo $donnees['creation_date']; ?></em>
+                            </p>
     
-                    <p>
-                        <?php
-                            echo nl2br(htmlspecialchars($donnees[0]['Text_article']));
-                        ?>
-                        <br />
-                        <img src=<?php echo $donnees[0]['Picture']; ?>>
-                    </p>
-                </div>
-        <?php $req->closeCursor(); ?>
+                            <p class="text_article">
+                                <?php
+                                    echo nl2br(htmlspecialchars($donnees['Text_article']));
+                                ?>
+                                <br />
+                                <img src=<?php echo $donnees['Picture']; ?>>
+                            </p>
 
-        <h1><!--Titre de l'article--></h1>
-        <p><!-- Contenu entier de l'article--></p>
+                            <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
+                        </div>
+                <?php
+                    }
+                    $req->closeCursor();
+                ?>
     </body>
 </html>
