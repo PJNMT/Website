@@ -19,7 +19,7 @@
                         die('Erreur : '.$e->getMessage());
                     }
 
-                    $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id=$_GET['ID']');
+                    $req = $bdd->query("SELECT * FROM Article WHERE id='".$_GET['ID']."'");
 
                     // Affichage des articles
                     while ($donnees = $req->fetch())
@@ -28,7 +28,7 @@
                         <div class="article">
                             <p class="t3">
                                 <?php echo htmlspecialchars($donnees['Title']); ?>
-                                <em>le <?php echo $donnees['creation_date']; ?></em>
+                                <em>le <?php echo $donnees['C_date']; ?></em>
                             </p>
     
                             <p class="text_article">
