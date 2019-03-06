@@ -64,19 +64,21 @@
                     while ($donnees = $req->fetch())
                     {
                 ?>
-                        <div class="news">
+                        <div class="article">
                             <p class="t3">
                                 <?php echo htmlspecialchars($donnees['Title']); ?>
                                 <em>le <?php echo $donnees['creation_date']; ?></em>
                             </p>
     
-                            <p>
+                            <p class="text_article">
                                 <?php
                                     echo nl2br(htmlspecialchars($donnees['Text_article']));
                                 ?>
                                 <br />
                                 <img src=<?php echo $donnees['Picture'] ?>>
                             </p>
+
+                            <a href=<?php echo ('blindflag.fr/articles.php?name=' + $donnees['Title'])?>>Voir plus</a>
                         </div>
                 <?php
                     }

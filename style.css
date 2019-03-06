@@ -259,15 +259,21 @@ li {
 
 /* TEST TAO BDD */
 
-.news p
+.article p
 {
     background-color:#CCCCCC;
     margin-top:0px;
 }
-.news
+.article
 {
     width:70%;
     margin:auto;
+}
+
+.text_article
+{	
+    height: 10%;
+    overflow: hidden;
 }
 
 .t3
