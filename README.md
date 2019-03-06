@@ -6,3 +6,5 @@ Le site internet a une page d'accueil fonctionnelle. Les élements à ajouter so
 Le lien de téléchargement pour le jeu est aussi inséré directement. Il manque une page de contact jolie à paramétrer et un blog pour les mises à jours successives du jeu.
 
 https://github.com/PJNMT/BlindFlag
+
+http://blindflag.fr
