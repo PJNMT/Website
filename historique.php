@@ -75,7 +75,7 @@
                                     echo nl2br(htmlspecialchars($donnees['Text_article']));
                                 ?>
                                 <br />
-                                <img src=<?php echo $donnees['Picture'] ?>>
+                                <img src=<?php echo $donnees['Picture']; ?>>
                             </p>
 
                             <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>

@@ -19,7 +19,9 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $donnees = $bdd->query("SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='".$_GET['ID']."'");
+            $req = $bdd->query("SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='".$_GET['ID']."'");
+            while ($donnees = $req->fetch())
+            {
         ?>
 
                 <div class="article">
@@ -36,6 +38,11 @@
                         <img src=<?php echo $donnees['Picture']; ?>>
                     </p>
                 </div>
+                
+        <?php
+            }
+            $req->closeCursor();
+        ?>
 
         <h1><!--Titre de l'article--></h1>
         <p><!-- Contenu entier de l'article--></p>
