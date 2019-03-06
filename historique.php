@@ -2,26 +2,20 @@
 <html>
 
     <head>
-
 		<title>Accueil</title>
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/jpg" href="images/favicon.jpg" />
-		
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg" />		
     </head>
 
 
     <body>
-
  		<div>
 			<!-- Header -->
             <?php include('header.html'); ?>
 
             <article>
-                <!-- Place du fil d'actualités, le plus récent en haut-->
-                <!-- Titre + photo si il y a + date + premières lignes du texte avec un bouton lire la suite sur qui redirige vers articles.html -->
-
                 <?php
                     // Connexion à la base de données
                     try
@@ -39,22 +33,24 @@
                     while ($donnees = $req->fetch())
                     {
                 ?>
-                        <div class="article">
-                            <p class="t3">
-                                <?php echo htmlspecialchars($donnees['Title']); ?>
-                                <em>le <?php echo $donnees['creation_date']; ?></em>
-                            </p>
-    
-                            <p class="text_article">
-                                <?php
-                                    echo nl2br(htmlspecialchars($donnees['Text_article']));
-                                ?>
-                                <br />
-                                <img src=<?php echo $donnees['Picture']; ?>>
-                            </p>
 
-                            <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
-                        </div>
+                    <div class="article">
+                        <p class="t3">
+                            <?php echo htmlspecialchars($donnees['Title']); ?>
+                            <em>le <?php echo $donnees['creation_date']; ?></em>
+                        </p>
+    
+                        <p class="text_article">
+                            <?php
+                                echo nl2br(htmlspecialchars($donnees['Text_article']));
+                            ?>
+                            <br />
+                            <img src=<?php echo $donnees['Picture']; ?>>
+                        </p>
+
+                        <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
+                    </div>
+
                 <?php
                     }
                     $req->closeCursor();
@@ -64,9 +60,6 @@
 
             <!-- Footer -->
             <?php include('footer.html'); ?>
-
  		</div>
-
     </body>
-
 </html>
