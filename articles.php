@@ -7,6 +7,10 @@
         <script src="script.js"></script>
     </head>
     <body>
+        <div>
+
+        <!-- Header -->
+        <?php include('header.html'); ?>
 
         <?php
                     // Connexion à la base de données
@@ -31,19 +35,21 @@
                                 <em>le <?php echo $donnees['C_date']; ?></em>
                             </p>
     
-                            <p class="text_article">
+                            <p>
                                 <?php
                                     echo nl2br(htmlspecialchars($donnees['Text_article']));
                                 ?>
                                 <br />
                                 <img src=<?php echo $donnees['Picture']; ?>>
                             </p>
-
-                            <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
                         </div>
                 <?php
                     }
                     $req->closeCursor();
                 ?>
+
+        <!-- Footer -->
+        <?php include('footer.html'); ?>
+    </div>
     </body>
 </html>
