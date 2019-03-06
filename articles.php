@@ -19,7 +19,7 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE Title=$_GET['name']');
+            $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE Title=' . $_GET['name']);
             while ($donnees = $req->fetch())
             {
         ?>
