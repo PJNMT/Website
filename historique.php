@@ -58,7 +58,7 @@
                         die('Erreur : '.$e->getMessage());
                     }
 
-                    $req = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, id, Picture, , Text_article, Title FROM Article');
+                    $req = $bdd->query('SELECT  id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Picture, , Text_article, Title FROM Article');
 
                     // Affichage des articles
                     while ($donnees = $req->fetch())
