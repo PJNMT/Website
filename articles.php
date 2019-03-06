@@ -19,30 +19,23 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $req = $bdd->query("SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='".$_GET['ID']."'");
-            while ($donnees = $req->fetch())
-            {
+            $donnees = $bdd->query("SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='".$_GET['ID']."'");
         ?>
 
                 <div class="article">
                     <p class="t3">
-                        <?php echo htmlspecialchars($donnees['Title']); ?>
-                        <em>le <?php echo $donnees['creation_date']; ?></em>
+                        <?php echo htmlspecialchars($donnees[0]['Title']); ?>
+                        <em>le <?php echo $donnees[0]['creation_date']; ?></em>
                     </p>
     
                     <p>
                         <?php
-                            echo nl2br(htmlspecialchars($donnees['Text_article']));
+                            echo nl2br(htmlspecialchars($donnees[0]['Text_article']));
                         ?>
                         <br />
-                        <img src=<?php echo $donnees['Picture']; ?>>
+                        <img src=<?php echo $donnees[0]['Picture']; ?>>
                     </p>
                 </div>
-                
-        <?php
-            }
-            $req->closeCursor();
-        ?>
 
         <h1><!--Titre de l'article--></h1>
         <p><!-- Contenu entier de l'article--></p>
