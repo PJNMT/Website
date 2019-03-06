@@ -78,7 +78,7 @@
                                 <img src=<?php echo $donnees['Picture'] ?>>
                             </p>
 
-                            <a href=<?php echo ('blindflag.fr/articles.php?name=' . $donnees['Title'])?>>Voir plus</a>
+                            <a href=<?php echo ('/articles.php?name=' . $donnees['Title'])?>>Voir plus</a>
                         </div>
                 <?php
                     }
