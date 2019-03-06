@@ -58,7 +58,7 @@
                         die('Erreur : '.$e->getMessage());
                     }
 
-                    $req = $bdd->query('SELECT  id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Picture, , Text_article, Title FROM Article');
+                    $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article');
 
                     // Affichage des articles
                     while ($donnees = $req->fetch())
@@ -78,7 +78,7 @@
                                 <img src=<?php echo $donnees['Picture'] ?>>
                             </p>
 
-                            <a href=<?php echo ('/articles.php?ID=' . htmlspecialchars($donnees['id'])); ?>>Voir plus</a>
+                            <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
                         </div>
                 <?php
                     }
