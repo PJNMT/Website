@@ -19,7 +19,7 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $donnees = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE Title=' . $_GET['name']);
+            $donnees = $bdd->query('SELECT DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, id, Picture, , Text_article, Title FROM Article WHERE id=' . $_GET['ID']);
         ?>
 
                 <div class="article">
