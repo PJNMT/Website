@@ -19,7 +19,9 @@
                 die('Erreur : '.$e->getMessage());
             }
 
-            $donnees = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='. $_GET['ID']);
+            try
+            {
+                $donnees = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article WHERE id='. $_GET['ID']);
         ?>
 
                 <div class="article">
@@ -36,6 +38,13 @@
                         <img src=<?php echo $donnees['Picture'] ?>>
                     </p>
                 </div>
+        <?php
+            }
+            catch
+            {
+                echo "Erreur 404 - l'article n'existe pas...";
+            }
+        ?>
 
         <h1><!--Titre de l'article--></h1>
         <p><!-- Contenu entier de l'article--></p>
