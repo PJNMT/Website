@@ -19,7 +19,7 @@
             <?php include('header.html'); ?>
 
             <h1>Voici la page de contact!</h1>
-            <h1><a href="mailto:votrenom@bidule.com">Envoyez-nous un e-mail !</a></h1>
+            <h1><a href="mailto:contact@blindflag.fr">Envoyez-nous un e-mail !</a></h1>
 
             <div style="height:100px;display:block;"> </div>
 
