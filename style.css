@@ -261,27 +261,30 @@ li {
 
 .article p
 {
-    background-color:#CCCCCC;
-    margin-top:0px;
+    background-color:rgba(255,255,255,0.75);
+    margin-top: 0px;
 }
 .article
 {
     width:70%;
     margin:auto;
+    padding: 1em;
 }
 
 .text_article
-{	
+{
     height: 30em;
+    max-height: auto;
     overflow: hidden;
+    color: black;
 }
 
 .t3
 {
-	text-align:center;
-    background-color:black;
-    color:white;
-    font-size:0.9em;
+    text-align:center;
+    color:black;
+    font-size:2em;
     margin-bottom:0px;
     font-weight: bold;
+    padding: 50px;
 }
