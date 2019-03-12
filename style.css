@@ -124,6 +124,12 @@ header div .element a
 
 }
 
+/*Vidéo*/
+#vidéo
+{
+	margin: 100px;
+}
+
 /*Banner*/
 #banner {
 		display: flex;
@@ -209,7 +215,7 @@ header div .element a
 }
 article
 {
-
+    border:black 20px;
 }
 article header
 {
@@ -233,6 +239,11 @@ article header
 }
 
 /*footer*/
+footer
+{
+	position: absolute;
+	bottom: 0px;
+}
 ul {
 	list-style:none;
 	margin-left:0;

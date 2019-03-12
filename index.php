@@ -36,10 +36,15 @@
 
  			<!--Main-->
  			<article>
+
  				<header id="section"> 
  					<h2 id="main">La meilleure réalité est <br> celle que nous permet notre imagination!</h2>
  					<p><strong>BlindFlag</strong> est un jeu entièrement accessible aux personnes déficientes visuelles. <br> Le gameplay ne nécessite que très peu le clavier. Commande vocale, design minimal.</p>
  				</header>
+
+                <div id="vidéo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EzoSAgHlrk4?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
  				<!--Section One-->
  				<section>
