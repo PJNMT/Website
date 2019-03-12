@@ -288,3 +288,10 @@ li {
     font-weight: bold;
     padding: 50px;
 }
+
+.text_box_article 
+{
+	border: 5px;
+	border-color: black;
+	border-radius: 2px;
+}

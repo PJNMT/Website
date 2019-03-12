@@ -35,18 +35,20 @@
                 ?>
 
                     <div class="article">
-                        <p class="t3">
-                            <?php echo htmlspecialchars($donnees['Title']); ?>
-                            <em>le <?php echo $donnees['creation_date']; ?></em>
-                        </p>
-    
-                        <p class="text_article">
-                            <?php
-                                echo nl2br(htmlspecialchars($donnees['Text_article']));
-                            ?>
-                            <br />
-                            <img src=<?php echo $donnees['Picture']; ?>>
-                        </p>
+                        <div class="text_box_article">
+                            <p class="t3">
+                                <?php echo htmlspecialchars($donnees['Title']); ?>
+                                <em>le <?php echo $donnees['creation_date']; ?></em>
+                            </p>
+        
+                            <p class="text_article">
+                                <?php
+                                    echo nl2br(htmlspecialchars($donnees['Text_article']));
+                                ?>
+                                <br />
+                                <img src=<?php echo $donnees['Picture']; ?>>
+                            </p>
+                        </div>
 
                         <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
                     </div>
