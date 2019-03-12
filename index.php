@@ -47,7 +47,7 @@
                 </div>
 
  				<!--Section One-->
- 				<section>
+ 				<!-- <section>
  					<div class="conteneur caracteristics">
  						<div class="box">
  							Gameplay
@@ -62,10 +62,10 @@
  							<img src="images/pic04.jpg">
  						</div>
  					</div>
- 				</section>
+ 				</section> -->
 
  				<!--Section Two-->
- 				<section class="conteneur caracteristics">
+ 				<!-- <section class="conteneur caracteristics">
  					<div>
  						Bidule Truc
  					</div>
@@ -75,7 +75,7 @@
  					<div>
  						Bidule Machin
  					</div>
- 				</section>
+ 				</section> -->
  			</article>
 			
 			<!--Footer-->
