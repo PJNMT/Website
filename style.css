@@ -284,7 +284,6 @@ li {
 .text_article
 {
     height: 30em;
-    max-height: auto;
     overflow: hidden;
     color: black;
 }
