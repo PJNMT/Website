@@ -11,7 +11,7 @@
 
 
     <body>
- 		<div>
+ 		<div class="body">
 			<!-- Header -->
             <?php include('header.html'); ?>
 
