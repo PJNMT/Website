@@ -261,7 +261,6 @@ li {
 
 .article p
 {
-    background-color:rgba(255,255,255,0.75);
     margin-top: 0px;
 }
 .article
@@ -291,7 +290,9 @@ li {
 
 .text_box_article 
 {
-	border: 5px;
+	border: 2px;
 	border-color: black;
-	border-radius: 2px;
+	border-radius: 5px;
+	border-style: solid;	
+    background-color: rgb(255,255,255,0.5);
 }
