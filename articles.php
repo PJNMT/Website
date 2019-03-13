@@ -30,7 +30,7 @@
                 while ($donnees = $req->fetch())
                 {
             ?>
-                    <div class="article">
+                    <div class="article text_box_article">
                         <p class="t3">
                             <?php echo htmlspecialchars($donnees['Title']); ?>
                             <em>le <?php echo $donnees['C_date']; ?></em>
