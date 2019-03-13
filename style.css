@@ -320,4 +320,11 @@ li {
 	border-radius: 5px;
 	border-style: solid;	
     background-color: rgb(255,255,255,0.3);
+	color: black;
+}
+
+p img
+{
+	width: 25%;
+	object-fit: contain;
 }
