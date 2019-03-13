@@ -27,7 +27,7 @@
  					<p>Développé par des élèves de l'<strong><a href="http://www.epita.fr/">EPITA</a></strong><br> afin de créer un jeu accessible <br> aux déficients visuels.</p>
 
  					<ul class="action">
- 						<a href="#main">Voir plus</a></li>
+ 						<a href="#main">Voir plus</a>
  					</ul>
 
  				</div>

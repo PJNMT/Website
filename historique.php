@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 
     <head>
 		<title>Accueil</title>
@@ -50,7 +50,7 @@
                             </p>
                         </div>
 
-                        <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a>
+                        <ul class="action"> <a href=<?php echo ('/articles.php?ID=' . $donnees['id']); ?>>Voir plus</a> </ul>
                     </div>
 
                 <?php
