@@ -27,9 +27,8 @@ body
 	font-size: 16px;
 	line-height: normal;
 	color: white;
-	background: no-repeat;
+	background: no-repeat, linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/banner.jpg);
 	background-attachment: fixed;
-	background-image: url(images/banner.jpg);
 	background-size: cover;
 	min-height: 100%;
 	position: absolute;
@@ -146,6 +145,7 @@ header div .element a
 		position: relative;
 		text-align: center;
 	}
+
 #center
 {
 	background-color: rgba(70,49,89,0.15);
@@ -215,7 +215,7 @@ header div .element a
 	text-align: center;
 	padding: 50px 0px 50px 0px;
 	font-size: 200%;
-	color: #A9A9A9;
+	color: black;
 }
 article
 {
