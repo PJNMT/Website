@@ -93,6 +93,65 @@ a
 	font-size: 20px;
 	align-self: center;
 }
+@media screen and (max-width: 1680px) {
+
+    .conteneur {
+        width: 1200px;
+    }
+
+    .conteneur.medium {
+        width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .conteneur {
+        width: 960px;
+    }
+
+    .conteneur.medium {
+        width: 735px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .conteneur {
+        width: 95%;
+    }
+
+    .conteneur.medium {
+        width: 71.25%;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+
+    .conteneur {
+        width: 95%;
+    }
+
+    .conteneur.medium {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .conteneur {
+        width: 100%;
+    }
+
+    .conteneur.medium {
+        width: 100%;
+    }
+
+}
 img {
 	max-width: 100%;
 	height: auto;
