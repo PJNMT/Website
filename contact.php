@@ -6,6 +6,7 @@
         <title>Contact</title>
         <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/jpg" href="images/favicon.jpg" />
         

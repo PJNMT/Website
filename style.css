@@ -73,7 +73,8 @@ a
 }
 #nav
 {
-	display: flex;
+	/*display: flex;*/
+	float: right;
 	justify-content: flex-end;
 }
 #img
@@ -82,17 +83,13 @@ a
 }
 #cont
 {
-	display: flex;
+	/*display: flex;*/
+	float: left;
 	flex-direction: row;
 	justify-content: flex-start;
+
 }
-.conteneur
-{
-	display: flex;
-	flex-direction: row;
-	font-size: 20px;
-	align-self: center;
-}
+
 @media screen and (max-width: 1680px) {
 
     .conteneur {
@@ -190,6 +187,17 @@ header div .element a
 #vidéo
 {
 	margin: 100px;
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative; height:0;
+}
+#vidéo iframe
+{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
 }
 
 /*Banner*/
@@ -385,4 +393,23 @@ p img
 {
 	width: 25%;
 	object-fit: contain;
+}
+
+@media screen and (min-width: 900px) {
+	.conteneur
+	{
+		display: flex;
+		flex-direction: row;
+		font-size: 20px;
+		align-self: center;
+	}
+}
+@media screen and (max-width: 900px) {
+	.conteneur
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 20px;
+		align-self: center;
+	}
 }
