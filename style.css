@@ -99,10 +99,7 @@ figcaption
 {
 	align-content: center;
 }
-.imgconten
-{
-	overflow: hidden;
-}
+
 #menu
 {
 	justify-content: flex-end;
@@ -345,6 +342,13 @@ p img
 	{
 		margin-left: 100px;
 	}
+
+	.imgconten
+	{
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
 }
 @media screen and (max-width: 900px) {
 	.conteneur
@@ -363,5 +367,10 @@ p img
 	#social a
 	{
 		margin:auto;
+	}
+
+	.imgconten
+	{
+		overflow: hidden;
 	}
 }

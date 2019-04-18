@@ -27,26 +27,26 @@
             <section>
 
                 <div class="conteneur">
-                    <div>
+                    <figure>
                         <img class="imgconten" src="images/Photo/Jeanne.jpg" width="70%" height="70%">
                         <figcaption>Jeanne Morin</figcaption>
-                    </div>
-                    <div>
+                    </figure>
+                    <figure>
                         <img class="imgconten" src="images/Photo/Marius.jpg" width="70%" height="70%">
                         <figcaption>Marius Hurbin</figcaption>
-                    </div>
-                    <div>
+                    </figure>
+                    <figure>
                         <img class="imgconten" src="images/Photo/Pilar.jpg" width="70%" height="70%">
                         <figcaption>Pilar Guttirez</figcaption>
-                    </div>
-                    <div>
+                    </figure>
+                    <figure>
                         <img class="imgconten" src="images/Photo/Tao.jpg" width="70%" height="70%">
                         <figcaption>Tao Blancheton</figcaption>
-                    </div>
-                    <div>
+                    </figure>
+                    <figure>
                         <img class="imgconten" src="images/Photo/Néphélie.jpg" width="70%" height="70%">
                         <figcaption>Néphélie Lambrinidis</figcaption>
-                    </div>
+                    </figure>
                 </div>
                 
             </section>
