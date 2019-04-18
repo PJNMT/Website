@@ -333,11 +333,10 @@ li {
 	display: flex;
 	align-items: center;
 }
-#social img
+#social a
 {
-	margin-left: 100px;
+	margin:auto;
 }
-
 .body
 {
 	min-height: 100%;
