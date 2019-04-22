@@ -8,3 +8,18 @@ Le lien de téléchargement pour le jeu est aussi inséré directement. Il manqu
 https://github.com/PJNMT/BlindFlag
 
 http://blindflag.fr
+
+
+/!\ IL FAUT RAJOUTER LEFICHIER connect.php /!\
+``` php
+<?php
+ 	// Connexion à la base de données
+	try
+	{
+    	$bdd = new PDO('mysql:host=localhost;dbname=NOM_DE_LA_TABLE;charset=utf8', 'USER', 'PASSWORD');
+	}
+	catch(Exception $e)
+	{
+    	die('Erreur : '.$e->getMessage());
+	}
+?>```
