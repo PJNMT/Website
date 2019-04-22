@@ -10,7 +10,7 @@ https://github.com/PJNMT/BlindFlag
 http://blindflag.fr
 
 
-/!\ IL FAUT RAJOUTER LEFICHIER connect.php /!\
+/!\ IL FAUT RAJOUTER LE FICHIER connect.php /!\
 ``` php
 <?php
  	// Connexion à la base de données
