@@ -18,15 +18,7 @@
 
             <article>
                 <?php
-                    // Connexion à la base de données
-                    try
-                    {
-                        $bdd = new PDO('mysql:host=localhost;dbname=BlindFlag;charset=utf8', 'blindflag', 'tao');
-                    }
-                    catch(Exception $e)
-                    {
-                        die('Erreur : '.$e->getMessage());
-                    }
+                    include('config/connect.php');
 
                     $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article ORDER BY id DESC');
 

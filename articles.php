@@ -15,15 +15,7 @@
             <?php include('header.html'); ?>
 
             <?php
-                // Connexion à la base de données
-                try
-                {
-                    $bdd = new PDO('mysql:host=localhost;dbname=BlindFlag;charset=utf8', 'blindflag', 'tao');
-                }
-                catch(Exception $e)
-                {
-                    die('Erreur : '.$e->getMessage());
-                }
+                include('connect.php');
 
                 $req = $bdd->query("SELECT * FROM Article WHERE id='".$_GET['ID']."'");
 
