@@ -36,10 +36,6 @@
                         <figcaption>Marius Hurbin</figcaption>
                     </figure>
                     <figure>
-                        <img class="imgconten" src="images/Photo/Pilar.jpg" width="70%" height="70%">
-                        <figcaption>Pilar Guttirez</figcaption>
-                    </figure>
-                    <figure>
                         <img class="imgconten" src="images/Photo/Tao.jpg" width="70%" height="70%">
                         <figcaption>Tao Blancheton</figcaption>
                     </figure>
