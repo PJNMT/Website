@@ -15,7 +15,7 @@
             <?php include('header.html'); ?>
 
             <?php
-                include('connect.php');
+                include('config/connect.php');
 
                 $req = $bdd->query("SELECT * FROM Article WHERE id='".$_GET['ID']."'");
 
