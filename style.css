@@ -220,7 +220,7 @@ header div .element a
 	text-align: center;
 	padding: 50px 0px 50px 0px;
 	font-size: 200%;
-	color: black;
+	color: white;
 }
 article
 {
@@ -296,7 +296,7 @@ li {
 {
     height: 30em;
     overflow: hidden;
-    color: black;
+    color: white;
 }
 
 .t3
@@ -315,7 +315,7 @@ li {
 	border-radius: 5px;
 	border-style: solid;	
     background-color: rgb(255,255,255,0.3);
-	color: black;
+	color: white;
 }
 
 p img
