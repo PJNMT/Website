@@ -38,6 +38,20 @@
  			<!--Main-->
  			<article>
 
+                <!-- Section progression -->
+                <div id="progression">
+                    <h3>Avancement du projet</h3>
+                    <p class="text-align">Jeu :</p><div id="jeu" class="progress-bar center-div red"></div> <!--Jeu-->
+                    <p class="text-align">Site internet :</p><div id="site" class="progress-bar center-div orange"></div> <!--Site Internet-->
+                    <p class="text-align">Audio :</p><div id="audio" class="progress-bar center-div yellow"></div> <!--Audio-->
+                    <p class="text-align">Mécaniques de jeu :</p><div id="mecanique" class="progress-bar center-div green"></div> <!--Mecaniques jeu -->
+                    <p class="text-align">Intelligence Artificielle :</p><div id="IA" class="progress-bar center-div blue"></div> <!--IA-->
+                    <p class="text-align">Base de données :</p><div id="BDD" class="progress-bar center-div purple"></div> <!--BDD-->
+                    <p class="text-align">Réseaux sociaux :</p><div id="reseaux" class="progress-bar center-div red"></div> <!--Reseaux sociaux-->
+                    <p class="text-align">Test du jeu :</p><div id="test" class="progress-bar center-div orange"></div> <!--Testeurs / tests-->
+
+                </div>
+
  				<header id="section"> 
  					<h2 id="main">La meilleure réalité est <br> celle que nous offre notre imagination!</h2>
  					<p><strong>BlindFlag</strong> est un jeu entièrement accessible aux personnes déficientes visuelles. <br> Le gameplay ne nécessite que très peu le clavier. Commande vocale, design minimal.</p>
@@ -46,6 +60,7 @@
                 <div id="vidéo">
                     <iframe width="1280" height="720" src="https://www.youtube.com/embed/EzoSAgHlrk4?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+
 
  				<!--Section One-->
  				<!-- <section>
