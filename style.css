@@ -428,23 +428,35 @@ p.text-align{
 #site.progress-bar:before{
 	 width: 270px;
  }
-#audio.progress-bar:before{
+#bataille.progress-bar:before{
+	width: 300px;
+}
+#nav.progress-bar:before{
+	width: 300px;
+}
+#OKCoco.progress-bar:before{
 	width: 150px;
 }
-#mecanique.progress-bar:before{
-	width: 270px;
-}
-#BDD.progress-bar:before{
+#combat.progress-bar:before{
 	width: 300px;
 }
-#IA.progress-bar:before{
-	width: 300px;
+#tresor.progress-bar:before{
+	width: 150px;
 }
-#reseaux.progress-bar:before{
-	width: 270px;
+#simon.progress-bar:before{
+	width: 150px;
 }
-#test.progress-bar:before{
-	width: 60px;
+#port.progress-bar:before{
+    width: 300px;
+}
+#taverne.progress-bar:before{
+    width: 300px;
+}
+#sauv.progress-bar:before{
+    width: 200px;
+}
+#stat.progress-bar:before{
+    width: 300px;
 }
 
 /*.progress-bar:after {

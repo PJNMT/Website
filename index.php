@@ -41,14 +41,19 @@
                 <!-- Section progression -->
                 <div id="progression">
                     <h3>Avancement du projet</h3>
-                    <p class="text-align">Jeu :</p><div id="jeu" class="progress-bar center-div red"></div> <!--Jeu-->
+                    <p class="text-align">Avancement global du jeu :</p><div id="jeu" class="progress-bar center-div red"></div> <!--Jeu-->
                     <p class="text-align">Site internet :</p><div id="site" class="progress-bar center-div orange"></div> <!--Site Internet-->
-                    <p class="text-align">Audio :</p><div id="audio" class="progress-bar center-div yellow"></div> <!--Audio-->
-                    <p class="text-align">Mécaniques de jeu :</p><div id="mecanique" class="progress-bar center-div green"></div> <!--Mecaniques jeu -->
-                    <p class="text-align">Intelligence Artificielle :</p><div id="IA" class="progress-bar center-div blue"></div> <!--IA-->
-                    <p class="text-align">Base de données :</p><div id="BDD" class="progress-bar center-div purple"></div> <!--BDD-->
-                    <p class="text-align">Réseaux sociaux :</p><div id="reseaux" class="progress-bar center-div red"></div> <!--Reseaux sociaux-->
-                    <p class="text-align">Test du jeu :</p><div id="test" class="progress-bar center-div orange"></div> <!--Testeurs / tests-->
+                    <p class="text-align">Bataille Navale :</p><div id="bataille" class="progress-bar center-div yellow"></div> <!--Bataille navale-->
+                    <p class="text-align">Navigation :</p><div id="nav" class="progress-bar center-div green"></div> <!--Navigation-->
+                    <p class="text-align">Ok Coco :</p><div id="OKCoco" class="progress-bar center-div blue"></div> <!--OK Coco-->
+                    <p class="text-align">Combat :</p><div id="combat" class="progress-bar center-div purple"></div> <!--Combat-->
+                    <p class="text-align">Chasse au trésor :</p><div id="tresor" class="progress-bar center-div red"></div> <!--Chasse au trésor-->
+                    <p class="text-align">Simon :</p><div id="simon" class="progress-bar center-div orange"></div> <!--Simon-->
+                    <p class="text-align">Port :</p><div id="port" class="progress-bar center-div yellow"></div> <!--Port-->
+                    <p class="text-align">Taverne :</p><div id="taverne" class="progress-bar center-div green"></div> <!--Taverne-->
+                    <p class="text-align">Sauvegarde :</p><div id="sauv" class="progress-bar center-div blue"></div> <!--Sauvegarde-->
+                    <p class="text-align">Statistiques :</p><div id="stat" class="progress-bar center-div purple"></div> <!--Stats-->
+
 
                 </div>
 
