@@ -53,6 +53,7 @@
                     <p class="text-align">Taverne :</p><div id="taverne" class="progress-bar center-div green"></div> <!--Taverne-->
                     <p class="text-align">Sauvegarde :</p><div id="sauv" class="progress-bar center-div blue"></div> <!--Sauvegarde-->
                     <p class="text-align">Statistiques :</p><div id="stat" class="progress-bar center-div purple"></div> <!--Stats-->
+                    <p class="text-align">Magasin :</p><div id="magasin" class="progress-bar center-div red"></div> <!--Stats-->
 
 
                 </div>

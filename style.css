@@ -453,10 +453,13 @@ p.text-align{
     width: 300px;
 }
 #sauv.progress-bar:before{
-    width: 200px;
+    width: 300px;
 }
 #stat.progress-bar:before{
     width: 300px;
+}
+#magasin.progress-bar:before{
+	width: 300px;
 }
 
 .blue:before {
