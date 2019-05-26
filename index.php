@@ -44,7 +44,7 @@
                     <p class="text-align">Avancement global du jeu :</p><div id="jeu" class="progress-bar center-div red"></div> <!--Jeu-->
                     <p class="text-align">Site internet :</p><div id="site" class="progress-bar center-div orange"></div> <!--Site Internet-->
                     <p class="text-align">Bataille Navale :</p><div id="bataille" class="progress-bar center-div yellow"></div> <!--Bataille navale-->
-                    <p class="text-align">Navigation :</p><div id="nav" class="progress-bar center-div green"></div> <!--Navigation-->
+                    <p class="text-align">Navigation :</p><div id="navigation" class="progress-bar center-div green"></div> <!--Navigation-->
                     <p class="text-align">Ok Coco :</p><div id="OKCoco" class="progress-bar center-div blue"></div> <!--OK Coco-->
                     <p class="text-align">Combat :</p><div id="combat" class="progress-bar center-div purple"></div> <!--Combat-->
                     <p class="text-align">Chasse au trésor :</p><div id="tresor" class="progress-bar center-div red"></div> <!--Chasse au trésor-->

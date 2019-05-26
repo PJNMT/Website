@@ -431,8 +431,8 @@ p.text-align{
 #bataille.progress-bar:before{
 	width: 300px;
 }
-#nav.progress-bar:before{
-	width: 300px;
+#navigation.progress-bar:before {
+    width: 300px;
 }
 #OKCoco.progress-bar:before{
 	width: 150px;
@@ -458,26 +458,6 @@ p.text-align{
 #stat.progress-bar:before{
     width: 300px;
 }
-
-/*.progress-bar:after {
-	content: '||||||||||||';
-	display: block;
-	position: absolute;
-	width: 200px;
-	height: 24px;
-	overflow: hidden;
-	border-radius: 12px;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	transform: skewX(-30deg);
-	-webkit-transform: skewX(-30deg);
-	-moz-transform: skewX(-30deg);
-	-o-transform: skewX(-30deg);
-	font: bold 120px/80px sans-serif;
-	letter-spacing: -6px;
-	color: #000;
-	opacity: 0.06;
-}*/
 
 .blue:before {
 	background: #1cccff;
