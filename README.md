@@ -24,3 +24,7 @@ http://blindflag.fr
 	}
 ?>
 ```
+
+
+# Structure de la base de données
+![Structure de la base de données](/images/BDD.PNG)
