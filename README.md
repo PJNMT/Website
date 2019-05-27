@@ -9,7 +9,7 @@ https://github.com/PJNMT/BlindFlag
 
 http://blindflag.fr
 
-
+#### connect.php
 /!\ IL FAUT RAJOUTER LE FICHIER connect.php /!\
 ``` php
 <?php
@@ -26,5 +26,5 @@ http://blindflag.fr
 ```
 
 
-# Structure de la base de données
+#### Structure de la base de données
 ![Structure de la base de données](/images/BDD.PNG)
