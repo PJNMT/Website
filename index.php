@@ -69,7 +69,7 @@
 
 
  				<!--Section One-->
- 				<!-- <section>
+ 				<section>
  					<div class="conteneur caracteristics">
  						<div class="box">
  							Gameplay
@@ -77,17 +77,17 @@
  						</div>
  						<div class="box">
  							Visibilité
- 							<img src="images/pic04.jpg">
+ 							<img src="images/aveugle.png" width="80%">
  						</div>
  						<div class="box">
  							Stéréo
- 							<img src="images/pic04.jpg">
+ 							<img src="images/stereo.png" width="40%">
  						</div>
  					</div>
- 				</section> -->
+ 				</section>
 
  				<!--Section Two-->
- 				<!-- <section class="conteneur caracteristics">
+ 				<section class="conteneur caracteristics">
  					<div>
  						Bidule Truc
  					</div>
@@ -97,7 +97,7 @@
  					<div>
  						Bidule Machin
  					</div>
- 				</section> -->
+ 				</section>
  			</article>
 			
 			<!--Footer-->
