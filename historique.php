@@ -20,7 +20,7 @@
                 <?php
                     include('config/connect.php');
 
-                    $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article ORDER BY creation_date DESC');
+                    $req = $bdd->query('SELECT id, DATE_FORMAT(C_date, \'%d/%m/%Y\') AS creation_date, Title, Text_article, Picture FROM Article ORDER BY id');
 
                     // Affichage des articles
                     while ($donnees = $req->fetch())
