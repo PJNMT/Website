@@ -342,6 +342,7 @@ li {
 
 p img
 {
+	padding: 10%;
 	width: 25%;
 	object-fit: contain;
 }
