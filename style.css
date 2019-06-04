@@ -413,7 +413,7 @@ p.text-align{
 }
 
 .progress-bar {
-	width: 300px;
+	width: 25%;
 	height: 24px;
 	padding: 4px;
 	background-color: #191919;
@@ -467,7 +467,7 @@ p.text-align{
 	width: 40%;
 }
 #site.progress-bar:before{
-	 width: 300px;
+	 width: 20%;
  }
 #bataille.progress-bar:before{
 	width: 300px;
