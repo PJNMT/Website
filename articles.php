@@ -19,6 +19,7 @@
 
                 $req = $bdd->query("SELECT * FROM Article WHERE id='".$_GET['ID']."'");
 
+
                 // Affichage des articles
                 while ($donnees = $req->fetch())
                 {
