@@ -304,7 +304,7 @@ li {
 
 .text_article
 {
-    height: 10%;
+    height: 30em;
     overflow: hidden;
     color: white;
 }
@@ -326,6 +326,7 @@ li {
 	border-style: solid;	
     background-color: rgb(255,255,255,0.3);
 	color: white;
+	height: 20%
 }
 
 p img
