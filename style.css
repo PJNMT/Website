@@ -477,37 +477,37 @@ p.text-align{
 	 width: 22%;
  }
 #bataille.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 #navigation.progress-bar:before {
-    width: 25%;
+    width: 22%;
 }
 #OKCoco.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 #combat.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 #tresor.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 #simon.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 #port.progress-bar:before{
-    width: 25%;
+   	width: 22%;
 }
 #taverne.progress-bar:before{
-    width: 25%;
+    width: 22%;
 }
 #sauv.progress-bar:before{
-    width: 25%;
+    width: 22%;
 }
 #stat.progress-bar:before{
-    width: 25%;
+    width: 22%;
 }
 #magasin.progress-bar:before{
-	width: 25%;
+	width: 22%;
 }
 
 .blue:before {
