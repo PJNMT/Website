@@ -76,7 +76,7 @@
 
 
  				<!--Section One-->
- 				<section>
+ 				<!-- <section>
  					<div class="conteneur caracteristics">
  						<div class="box">
  							Gameplay
@@ -91,7 +91,7 @@
  							<img src="images/stereo.png" width="40%">
  						</div>
  					</div>
- 				</section>
+ 				</section> -->
 
  				<!--Section Two-->
  				<section class="conteneur caracteristics">
