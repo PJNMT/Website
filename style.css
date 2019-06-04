@@ -60,6 +60,11 @@ a
 }
 
 /*Header*/
+
+li.element{
+	margin: 10px;
+}
+
 #head
 {
 	text-transform: uppercase;
