@@ -44,23 +44,23 @@
                     <div class="Progress1"><div id="jeu" class="progress-bar1 center-div red"></div></div> <!--Jeu-->
                     <div class="Progress1">
                         <div class="conteneur1">
-                            <div class="Progress"><p class="text-align">Site internet :</p><div id="site" class="progress-bar center-div orange"></div></div> <!--Site Internet-->
-                            <div class="Progress"><p class="text-align">Bataille Navale :</p><div id="bataille" class="progress-bar center-div orange"></div></div> <!--Bataille navale-->
-                            <div class="Progress"><p class="text-align">Navigation :</p><div id="navigation" class="progress-bar center-div orange"></div></div> <!--Navigation--></div>
+                            <div class="Progress"><p class="text-align">Site internet :</p><div id="site" class="progress-bar center-div blue"></div></div> <!--Site Internet-->
+                            <div class="Progress"><p class="text-align">Bataille Navale :</p><div id="bataille" class="progress-bar center-div blue"></div></div> <!--Bataille navale-->
+                            <div class="Progress"><p class="text-align">Navigation :</p><div id="navigation" class="progress-bar center-div blue"></div></div> <!--Navigation--></div>
                         <div class="conteneur1">
-                            <div class="Progress"><p class="text-align">Ok Coco :</p><div id="OKCoco" class="progress-bar center-div orange"></div></div> <!--OK Coco-->
-                            <div class="Progress"><p class="text-align">Combat :</p><div id="combat" class="progress-bar center-div orange"></div></div> <!--Combat-->
-                            <div class="Progress"><p class="text-align">Chasse au trésor :</p><div id="tresor" class="progress-bar center-div orange"></div></div> <!--Chasse au trésor-->
+                            <div class="Progress"><p class="text-align">Ok Coco :</p><div id="OKCoco" class="progress-bar center-div blue"></div></div> <!--OK Coco-->
+                            <div class="Progress"><p class="text-align">Combat :</p><div id="combat" class="progress-bar center-div blue"></div></div> <!--Combat-->
+                            <div class="Progress"><p class="text-align">Chasse au trésor :</p><div id="tresor" class="progress-bar center-div blue"></div></div> <!--Chasse au trésor-->
                         </div>
                         <div class="conteneur1">
-                            <div class="Progress"><p class="text-align">Simon :</p><div id="simon" class="progress-bar center-div orange"></div></div> <!--Simon-->
-                            <div class="Progress"><p class="text-align">Port :</p><div id="port" class="progress-bar center-div orange"></div></div> <!--Port-->
-                            <div class="Progress"><p class="text-align">Taverne :</p><div id="taverne" class="progress-bar center-div orange"></div></div> <!--Taverne-->
+                            <div class="Progress"><p class="text-align">Simon :</p><div id="simon" class="progress-bar center-div blue"></div></div> <!--Simon-->
+                            <div class="Progress"><p class="text-align">Port :</p><div id="port" class="progress-bar center-div blue"></div></div> <!--Port-->
+                            <div class="Progress"><p class="text-align">Taverne :</p><div id="taverne" class="progress-bar center-div blue"></div></div> <!--Taverne-->
                         </div>
                         <div class="conteneur1">                        
-                            <div class="Progress"><p class="text-align">Sauvegarde :</p><div id="sauv" class="progress-bar center-div orange"></div></div> <!--Sauvegarde-->
-                            <div class="Progress"><p class="text-align">Statistiques :</p><div id="stat" class="progress-bar center-div orange"></div></div> <!--Stats-->
-                            <div class="Progress"><p class="text-align">Magasin :</p><div id="magasin" class="progress-bar center-div orange"></div></div> <!--Stats-->
+                            <div class="Progress"><p class="text-align">Sauvegarde :</p><div id="sauv" class="progress-bar center-div blue"></div></div> <!--Sauvegarde-->
+                            <div class="Progress"><p class="text-align">Statistiques :</p><div id="stat" class="progress-bar center-div blue"></div></div> <!--Stats-->
+                            <div class="Progress"><p class="text-align">Magasin :</p><div id="magasin" class="progress-bar center-div blue"></div></div> <!--Stats-->
                         </div>
                     </div>
                 </div>
