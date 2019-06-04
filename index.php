@@ -91,10 +91,10 @@
  							<img src="images/stereo.png" width="40%">
  						</div>
  					</div>
- 				</section> -->
+ 				</section>  -->
 
  				<!--Section Two-->
- 				<section class="conteneur caracteristics">
+ 				<!-- <section class="conteneur caracteristics">
  					<div>
  						Bidule Truc
  					</div>
@@ -105,7 +105,7 @@
  						Bidule Machin
  					</div>
  				</section>
- 			</article>
+ 			</article> -->
 			
 			<!--Footer-->
             <?php include('footer.html'); ?>
