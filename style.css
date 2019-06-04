@@ -310,12 +310,6 @@ li {
     color: white;
 }
 
-.textarticle_hist
-{
-	height: 30%;
-	color: white;
-}
-
 .t3
 {
     text-align:center;
@@ -334,6 +328,16 @@ li {
     background-color: rgb(255,255,255,0.3);
 	color: white;
 	height: 15em;
+}
+
+.textboxarticleinhist{
+	height: 30em;
+	border: 0.5px;
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: rgb(255,255,255,0.3);
+	color: white;
 }
 
 p img
