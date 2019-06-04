@@ -382,6 +382,9 @@ p img
 
   .Progress1 {
  	margin: 10px 0 10px 0;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
  }
 
 .center-div {
