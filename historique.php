@@ -31,7 +31,7 @@
                         <div class="text_box_article">
                             <p class="t3">
                                 <?php echo htmlspecialchars($donnees['Title']); ?>
-                                <em>le <?php echo $donnees['creation_date']; ?></em>
+                                <em class="date">le <?php echo $donnees['creation_date']; ?></em>
                             </p>
         
                             <p class="text_article">

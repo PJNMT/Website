@@ -279,6 +279,16 @@ li {
 
 /* Historique + articles */
 
+.t3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.date {
+	font-size: 10pt;
+}
+
 .article p
 {
     margin-top: 0px;
@@ -294,7 +304,7 @@ li {
 
 .text_article
 {
-    height: 30em;
+    height: 10%;
     overflow: hidden;
     color: white;
 }
