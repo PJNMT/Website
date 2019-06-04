@@ -377,7 +377,11 @@ p img
  /*Barres progression*/
 
  .Progress {
- 	margin: 0 5px 0 5px;
+ 	margin: 0 10px 0 10px;
+ }
+
+  .Progress1 {
+ 	margin: 10px 0 10px 0;
  }
 
 .center-div {
