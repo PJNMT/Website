@@ -27,7 +27,7 @@
                     <div class="article textboxarticleinhist">
                         <p class="t3">
                             <?php echo htmlspecialchars($donnees['Title']); ?>
-                            <em>le <?php echo $donnees['C_date']; ?></em>
+                            <em class="date">le <?php echo $donnees['C_date']; ?></em>
                         </p>
     
                         <p>
