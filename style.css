@@ -305,6 +305,7 @@ li {
 
 .text_article
 {
+	height: 20%;
     overflow: hidden;
     color: white;
 }
